@@ -1,3 +1,5 @@
+Stolen from @mkijowski 
+
 This repository contains my ~/.vimrc file which I will keep updated here.
 Usage instructions:
 
