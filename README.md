@@ -10,7 +10,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 Step 2: Clone this repo
 ```
-git clone https://github.com/mmcdaniel/dotfiles.git
+git clone git@github.com:Kokuko3/dotfiles.git
 mv dotfiles/.bashrc ~/.bashrc
 mv dotfiles/.vimrc ~/.vimrc
 ```
