@@ -1,15 +1,13 @@
 #!/bin/bash
 
-# Kijowski test comment
-
-if [ ! -d /home/mkijowski ]; then
-   read -p "Home directory for user mkijowski not found, enter username:" WHOAMI
+if [ ! -d /home/mmcdaniel ]; then
+   read -p "Home directory for user mmcdaniel not found, enter username:" WHOAMI
 else
-   WHOAMI=mkijowski
+   WHOAMI=mmcdaniel
 fi
 
 USERDIR=/home/$WHOAMI
-DOTFILEREPO=https://github.com/mkijowski/dotfiles
+DOTFILEREPO=https://github.com/mmcdaniel/dotfiles
 
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root, exiting." 
@@ -172,9 +170,9 @@ else
   su -m $WHOAMI -c "python $USERDIR/.vim/bundle/YouCompleteMe/install.py --clang-completer"
 fi
 
-## Configure system for mkijowski
+## Configure system for mmcdaniel
 read -p \
-  "Would you like to configure this system for mkijowski? (Y/N): " mkconfirm
+  "Would you like to configure this system for mmcdaniel? (Y/N): " mkconfirm
 if [[ $mkconfirm == [yY] || $mkconfirm == [yY][eE][sS] ]]; then
   su -m $WHOAMI -c "bash -c home_config $USERDIR"
   su -m $WHOAMI -c "bash -c git_config"
