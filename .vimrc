@@ -14,7 +14,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sensible'
-Bundle 'https://github.com/m-kat/aws-vim'
 Plugin 'scrooloose/nerdtree',{'on':'NERDTreeToggle'}
 Plugin 'jistr/vim-nerdtree-tabs'
 
