@@ -84,8 +84,8 @@ home_config() {
 export -f home_config
 
 git_config() {
-  git config --global user.email "matthewkijowski@gmail.com"
-  git config --global user.name "Matthew Kijowski"
+  git config --global user.email "mcdaniel.121@wright.edu"
+  git config --global user.name "Mason McDaniel"
   git config --global core.editor vim
 }
 export -f git_config
