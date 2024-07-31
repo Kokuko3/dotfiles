@@ -107,13 +107,6 @@ alias l='ls -CF'
 
 alias gitgraph="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
-             
-alias vtkpy="singularity exec ~/.singularity/vtk.simg python"
-alias ghidra="singularity exec ~/.singularity/r2ghidra.sif ghidra"
-alias r2="singularity exec ~/.singularity/r2ghidra.sif r2"
-alias avrdude="singularity exec ~/.singularity/avrdude.sif avrdude"
-alias qmk="singularity exec ~/.singularity/avrdude.sif qmk"
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -144,9 +137,3 @@ export EDITOR="$VISUAL"
 if [ -f /opt/anaconda3 ]; then
   export PATH=/opt/anaconda3/bin:$PATH
 fi
-
-#PATH="/home/mkijowski/perl5/bin${PATH:+:${PATH}}"; export PATH;
-#PERL5LIB="/home/mkijowski/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-#PERL_LOCAL_LIB_ROOT="/home/mkijowski/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-#PERL_MB_OPT="--install_base \"/home/mkijowski/perl5\""; export PERL_MB_OPT;
-#PERL_MM_OPT="INSTALL_BASE=/home/mkijowski/perl5"; export PERL_MM_OPT
