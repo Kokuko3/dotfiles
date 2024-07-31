@@ -5,7 +5,7 @@ Usage instructions:
 
 Step 1: Install prerequisites:
 ```
-sudo apt-get install vim git python-dev python3-dev build-essential cmake
+sudo apt-get install vim git python3-dev build-essential cmake
 git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 Step 2: Clone this repo
