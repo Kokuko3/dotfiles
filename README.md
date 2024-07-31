@@ -9,7 +9,7 @@ git clone https://github.com/Kokuko3/dotfiles.git
 Step 2: Run install script
 ```
 cd dotfiles/
-source install.sh
+sudo source install.sh
 cd
 rm -rf dotfiles/
 ```
