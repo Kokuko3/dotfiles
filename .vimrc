@@ -22,6 +22,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'roosta/vim-srcery'
 Plugin 'notpratheek/vim-luna'
 Plugin 'lifepillar/vim-solarized8'
+Plugin 'sainnhe/everforest'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
@@ -56,7 +57,8 @@ filetype plugin on
 " " see :h vundle for more details or wiki for FAQ
 " " Put your non-Plugin stuff after this line
 
-colorscheme molokai 
+set background=dark 
+colorscheme everforest
 
 let python_highlight_all=1
 syntax on
